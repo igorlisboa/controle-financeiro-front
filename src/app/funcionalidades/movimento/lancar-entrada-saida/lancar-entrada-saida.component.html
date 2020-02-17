@@ -1,0 +1,28 @@
+<div class="flex-container">
+
+  <mat-form-field class="flex-item">
+    <mat-label>Valor</mat-label>
+    <input matInput [(ngModel)]="valor"  />
+  </mat-form-field>
+
+  <mat-form-field class="flex-item">
+    <mat-label>Forma de pagamento</mat-label>
+    <input matInput [(ngModel)]="formaPagamento"  />
+  </mat-form-field>
+  <br>
+  <legend>Descrição:</legend>
+  <mat-divider></mat-divider>
+  <br>
+  <mat-form-field class="flex-item">
+    <mat-label>Tipo</mat-label>
+    <input matInput [(ngModel)]="tipo"  />
+  </mat-form-field>
+
+  <mat-form-field class="flex-item">
+    <mat-label>Descrição</mat-label>
+    <input matInput [(ngModel)]="detalheMovemento"  />
+  </mat-form-field>
+
+  <button mat-raised-button color="accent">ENVIAR</button>
+
+</div>
